@@ -162,7 +162,9 @@ input[type="submit"],input[type="reset"],.footer_grid_leftl,.footer_grid_leftr h
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-       min-height: 715px;
+	height: auto;
+	width: auto\9;
+	max-width: 100%;
     position: relative;
 }
 .banner {
