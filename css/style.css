@@ -156,7 +156,7 @@ input[type="submit"],input[type="reset"],.footer_grid_leftl,.footer_grid_leftr h
 }
 /*-- //header --*/
 #home {
-    background: url(../images/banner.jpg) no-repeat center top;
+    background: url(../images/background.jpg) no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
