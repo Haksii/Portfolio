@@ -148,32 +148,31 @@ input[type="submit"],input[type="reset"],.footer_grid_leftl,.footer_grid_leftr h
 }
 .nav-on-left .cd-main-content.nav-is-visible, .nav-on-left .cd-main-header.nav-is-visible {
 	-webkit-transform: translateX(260px);
-/*-- w3layouts --*/
 	-moz-transform: translateX(260px);
 	-ms-transform: translateX(260px);
 	-o-transform: translateX(260px);
 	transform: translateX(260px);
 }
 /*-- //header --*/
-#home {
-    background: url(../images/background.jpg) no-repeat center top;
-    background-size: cover;
-    -webkit-background-size: cover;
+#home { 
+    background-image: url(../images/chalkboard.jpg);
+	background-repeat: repeat;
+    /*-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    -ms-background-size: cover;
+	-ms-background-size: cover;*/
 	height: auto;
-	width: auto\9;
+	width: auto;
 	max-width: 100%;
     position: relative;
 }
 .banner {
-       margin: 0 auto;
+    margin: 0 auto;
     text-align: center;
     padding-top: 6em;
 }
 .banner img {
-       margin: 0 auto;
+    margin: 0 auto;
     text-align: center;
     border: 7px solid #44c7f4;
 }
@@ -489,7 +488,7 @@ h3.tittle:after, h3.tittle:before {
 }
 /*-- /services --*/
 #services{
-    background: url(../images/background2.jpg) no-repeat center top;
+    background: url(../images/shattered-island.gif) no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -523,12 +522,13 @@ h3.head.two {
 /*-- //services --*/
 /*-- /skills --*/
 .skills{
-      background: url(../images/skills.jpg) no-repeat center top;
-    background-size: cover;
+    background-image: url(../images/fancy-pants.jpg) ;
+    /*background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    -ms-background-size: cover;
+	-ms-background-size: cover;*/
+	background-repeat: repeat;
        min-height: 690px;
     padding-top: 9em;
 }
