@@ -404,7 +404,7 @@ ul.top-links li a i.fa:hover {
 	padding-top: 5rem;
 }
 .navigation {
-    background: black;
+    background: #101010;
     padding: 0.5em 0;
 }
 /*-- //social-icons --*/
@@ -716,7 +716,7 @@ p.b_label {
 
 /*-- footer --*/
 .footer{
-	     background: #000;
+	     background: #101010;
        padding: 4em 0 3em 0;
 }
 .footer form{
