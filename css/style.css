@@ -1021,7 +1021,7 @@ p.b_label {
 		float: none;
 		margin: 0;
 		text-align: center;
-		background: #0c0c0c;
+		background: #101010;
 	}
 	.navbar-nav > li:nth-child(3) a {
 		margin-right: auto !important;
