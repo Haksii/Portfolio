@@ -1,4 +1,4 @@
-/* overlay - centered modal dialog*/
+
 .overlay-visible
 {
     overflow:hidden !important;
@@ -13,9 +13,9 @@
     height:100%;
     z-index: 9991;
     text-align:center;
-/* IE<9 support hack */
+
 }
-/* chrome bug fix causing overlay-mask to not appear */
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 #cm-overlay-mask
 {
@@ -46,7 +46,7 @@
     vertical-align:middle;
     position:relative;
     display:inline-block;
-/* IE<8 support hacks */
+
     *display:inline;
     *zoom:1;
 }
@@ -62,12 +62,12 @@
     display:block;
 }
 
-/* customise mask colour */
+
 #cm-overlay-mask
 {
     background-color:#000000;
 }
-/* customise loader GIF */
+
 #cm-wrap
 {
     background:none;
@@ -76,7 +76,7 @@
 {
     background-image:none;
 }
-/* overlay border and shadow */
+
 #cm-overlay
 {
     border:1px solid #eee;
@@ -88,7 +88,7 @@
     opacity:0;
     z-index:9992;
 }
-/* close link style */
+
 #cm-wrap #cm-close
 {
     display:block;
@@ -104,7 +104,7 @@
     text-indent:-999em;
     opacity:0.5;
 }
-/* prev and next buttons */
+
 #cm-wrap #cm-prev,
 #cm-wrap #cm-next
 {
@@ -137,7 +137,7 @@
 }
 
 
-/* tooltip for close link (jquery tools) */
+
 .tooltip
 {
     text-align:center;
